@@ -1,4 +1,3 @@
 FROM fedora:33
-RUN yum -y groupinstall "X Software Development"; yum -y install libX11-xcb xcb-util libnsl; yum clean all
-
+RUN yum -y install xorg-x11-server-Xorg libX11-xcb xcb-util libnsl shared-mime-info adwaita-icon-theme fontconfig; yum clean all
 
