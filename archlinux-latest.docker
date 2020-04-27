@@ -1,3 +1,3 @@
 FROM archlinux
 
-RUN pacman -Sy --noconfirm xorg fontconfig adwaita-icon-theme; pacman -Sc
+RUN pacman -Syu --noconfirm fontconfig freetype2 fuse2 gcc glibc libdrm libelf libglvnd libx11 libxcb libffi lm_sensors mesa zlib adwaita-icon-theme; pacman -Scc
