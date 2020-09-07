@@ -1,4 +1,4 @@
 FROM fedora:30
-RUN yum -y install mesa-libGL mesa-dri-drivers xorg-x11-server-Xorg libX11-xcb xcb-util libnsl shared-mime-info adwaita-icon-theme fontconfig; yum clean all
+RUN yum -y install mesa-libGL mesa-dri-drivers xorg-x11-server-Xorg libX11-xcb xcb-util libnsl shared-mime-info adwaita-icon-theme fontconfig dbus-x11; yum clean all
 
 
