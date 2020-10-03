@@ -1,6 +1,6 @@
 FROM archlinux
 
-RUN pacman -Syu --noconfirm fontconfig freetype2 fuse2 gcc glibc libdrm libelf libglvnd libx11 libxcb libffi lm_sensors mesa zlib noto-fonts adwaita-icon-theme
+RUN pacman -Syu --noconfirm fontconfig freetype2 fuse2 gcc glibc libdrm libelf libglvnd libx11 libxcb libffi lm_sensors mesa zlib noto-fonts adwaita-icon-theme ca-certificates openssl
 RUN pacman -Scc
 
 
