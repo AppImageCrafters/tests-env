@@ -1,4 +1,4 @@
 FROM centos:7
-RUN yum -y groupinstall "X Window System" "Fonts"; yum -y install libX11-xcb xcb-util libnsl; yum clean all
+RUN yum -y groupinstall "X Window System" "Fonts"; yum -y install libX11-xcb xcb-util libnsl dbus-x11; yum clean all
 
 
